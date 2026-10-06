@@ -7,6 +7,7 @@
       <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
+      <EducationSection />
       <FitSection />
       <GrowthSection />
       <ResumeSection />

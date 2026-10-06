@@ -336,6 +336,7 @@ nav a:hover::after {
 .hero-panel,
 .card,
 .project-card,
+.education-card,
 .resume-card,
 .contact-panel {
   border: 1px solid var(--border);
@@ -412,6 +413,7 @@ nav a:hover::after {
 .prose p,
 .card p,
 .project-card p,
+.education-card p,
 .numbered p,
 .resume-card p {
   color: var(--subtle);
@@ -434,6 +436,7 @@ nav a:hover::after {
 
 .skill-grid,
 .project-grid,
+.education-grid,
 .fit-grid,
 .growth-grid {
   display: grid;
@@ -443,6 +446,30 @@ nav a:hover::after {
 
 .skill-grid {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.education-card {
+  padding: 28px;
+}
+
+.education-card h3 {
+  max-width: 520px;
+  font-size: 1.3rem;
+}
+
+.education-card .education-dates {
+  margin-bottom: 0.55rem;
+  color: var(--accent-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.education-card .education-institution {
+  margin-bottom: 1.15rem;
+  color: var(--text);
+  font-weight: 700;
 }
 
 .card,
@@ -785,6 +812,7 @@ nav a:hover::after {
   .skill-grid,
   .project-grid,
   .project-grid-featured,
+  .education-grid,
   .fit-grid,
   .growth-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -821,6 +849,7 @@ nav a:hover::after {
   .skill-grid,
   .project-grid,
   .project-grid-featured,
+  .education-grid,
   .fit-grid,
   .growth-grid {
     grid-template-columns: 1fr;
@@ -834,6 +863,7 @@ nav a:hover::after {
   .hero-panel,
   .card,
   .project-card,
+  .education-card,
   .resume-card,
   .contact-panel {
     padding: 22px;

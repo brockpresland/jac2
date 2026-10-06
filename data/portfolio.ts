@@ -15,6 +15,7 @@ export const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
+  { label: 'Education', href: '#education' },
   { label: 'Resume', href: '#resume' },
   { label: 'Contact', href: '#contact' }
 ]
@@ -126,6 +127,21 @@ export const projectGroups = [
 
 ]
 
+export const education = [
+  {
+    qualification: 'Master of Cybersecurity and Artificial Intelligence',
+    institution: 'Griffith University',
+    dates: 'Currently studying',
+    summary: 'Developing deeper expertise across cybersecurity, artificial intelligence and secure software systems, complementing my professional background in full-stack development.'
+  },
+  {
+    qualification: 'Graduate Certificate in Cyber Security and Networks',
+    institution: 'Queensland University of Technology (QUT)',
+    dates: '2025',
+    summary: 'Postgraduate study covering cybersecurity and networking, building on my practical experience in web development, infrastructure and application security.'
+  }
+]
+
 export const fitCards = [
   { title: 'Website Ownership', text: 'Comfortable maintaining, improving and protecting business websites that need to keep working.' },
   { title: 'Full Stack Development', text: 'Able to work across front-end, back-end, CMS, hosting and deployment concerns.' },
@@ -134,6 +150,6 @@ export const fitCards = [
 ]
 
 export const growthAreas = [
-  { title: 'Senior Development',   text: 'Build on my full-stack development experience to grow into a senior engineering role focused on technical leadership, software architecture, mentoring developers, and delivering scalable business solutions.' },
-  { title: 'Cybersecurity', text: 'Leverage my software engineering background and formal cybersecurity training to grow into a dedicated cybersecurity role focused on protecting systems, managing cyber risk and compliance, and improving organisational security.' }
+  { title: 'Software Engineering & Automation',   text: 'I want to build on my full-stack development experience by taking on more complex engineering challenges, with a particular interest in application architecture, automation, integrations and AI-enabled systems.' },
+  { title: 'Security & Technical Leadership', text: 'I want to combine my development experience with my cybersecurity training to build more secure and reliable systems, while progressively taking greater ownership of technical decisions, architecture and engineering practices.' }
 ]
